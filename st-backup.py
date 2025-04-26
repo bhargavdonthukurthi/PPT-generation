@@ -12,7 +12,7 @@ from pptx.util import Pt
 from typing import Dict, List, Optional, Tuple, Any
 
 # Configuration 
-API_KEY = os.environ.get("RALLY_API_KEY", "_GlhfJLBwSBWjJhQOR01I18U2Synak0upT01INX0s")
+API_KEY = os.environ.get("RALLY_API_KEY", "_GlhfJLBwSBWjJhQOR01I18U2Synak0upT01INX0s") #token is invalid
 PPT_TEMPLATE_PATH = os.environ.get("PPT_TEMPLATE_PATH", "template-Mark.pptx")
 LOG_LEVEL = os.environ.get("LOG_LEVEL", "INFO").upper()
 TEAM_OWNERS_EMIS = ["lakshminarayana nainaru", "Govindarajan M", "Ravi Ranjan"]
